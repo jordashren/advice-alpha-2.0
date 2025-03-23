@@ -1,0 +1,48 @@
+{
+  "type": "Topology",
+  "arcs": [
+    [[0, 0], [1, 0], [0, 1], [-1, 0], [0, -1]],
+    [[10, 10], [1, 0], [0, 1], [-1, 0], [0, -1]],
+    [[20, 20], [1, 0], [0, 1], [-1, 0], [0, -1]],
+    [[30, 30], [1, 0], [0, 1], [-1, 0], [0, -1]],
+    [[40, 40], [1, 0], [0, 1], [-1, 0], [0, -1]],
+    [[50, 50], [1, 0], [0, 1], [-1, 0], [0, -1]]
+  ],
+  "objects": {
+    "continents": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "North America" },
+          "arcs": [[0]]
+        },
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "Europe" },
+          "arcs": [[1]]
+        },
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "Asia" },
+          "arcs": [[2]]
+        },
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "Oceania" },
+          "arcs": [[3]]
+        },
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "Africa" },
+          "arcs": [[4]]
+        },
+        {
+          "type": "Polygon",
+          "properties": { "CONTINENT": "South America" },
+          "arcs": [[5]]
+        }
+      ]
+    }
+  }
+} 
